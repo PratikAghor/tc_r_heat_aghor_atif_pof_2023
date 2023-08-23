@@ -1,0 +1,55 @@
+2023-03-06 19:01:09,992 __main__ 0/8 INFO :: Computing Stability for Gr=3.000e+02, Pr=1.500e+01, eta=6.000e-01, mu = 0.000e+00, m=2, nr = 48
+2023-03-06 19:01:09,993 problems 0/8 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-03-06 19:01:10,090 problems 0/8 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-03-06 19:01:10,187 criticalfinder 0/8 INFO :: Solving Local EVP 1/50
+2023-03-06 19:01:23,484 criticalfinder 0/8 INFO :: Solving Local EVP 2/50
+2023-03-06 19:01:42,968 criticalfinder 0/8 INFO :: Solving Local EVP 3/50
+2023-03-06 19:01:59,933 criticalfinder 0/8 INFO :: Solving Local EVP 4/50
+2023-03-06 19:02:16,271 criticalfinder 0/8 INFO :: Solving Local EVP 5/50
+2023-03-06 19:02:32,540 criticalfinder 0/8 INFO :: Solving Local EVP 6/50
+2023-03-06 19:02:49,350 criticalfinder 0/8 INFO :: Solving Local EVP 7/50
+2023-03-06 19:03:06,249 criticalfinder 0/8 INFO :: Solving Local EVP 8/50
+2023-03-06 19:03:24,059 criticalfinder 0/8 INFO :: Solving Local EVP 9/50
+2023-03-06 19:03:41,980 criticalfinder 0/8 INFO :: Solving Local EVP 10/50
+2023-03-06 19:04:00,085 criticalfinder 0/8 INFO :: Solving Local EVP 11/50
+2023-03-06 19:04:17,052 criticalfinder 0/8 INFO :: Solving Local EVP 12/50
+2023-03-06 19:04:31,314 criticalfinder 0/8 INFO :: Solving Local EVP 13/50
+2023-03-06 19:04:46,880 criticalfinder 0/8 INFO :: Solving Local EVP 14/50
+2023-03-06 19:05:04,515 criticalfinder 0/8 INFO :: Solving Local EVP 15/50
+2023-03-06 19:05:21,234 criticalfinder 0/8 INFO :: Solving Local EVP 16/50
+2023-03-06 19:05:38,102 criticalfinder 0/8 INFO :: Solving Local EVP 17/50
+2023-03-06 19:05:55,551 criticalfinder 0/8 INFO :: Solving Local EVP 18/50
+2023-03-06 19:06:14,915 criticalfinder 0/8 INFO :: Solving Local EVP 19/50
+2023-03-06 19:06:31,432 criticalfinder 0/8 INFO :: Solving Local EVP 20/50
+2023-03-06 19:06:49,167 criticalfinder 0/8 INFO :: Solving Local EVP 21/50
+2023-03-06 19:07:06,882 criticalfinder 0/8 INFO :: Solving Local EVP 22/50
+2023-03-06 19:07:23,080 criticalfinder 0/8 INFO :: Solving Local EVP 23/50
+2023-03-06 19:07:39,320 criticalfinder 0/8 INFO :: Solving Local EVP 24/50
+2023-03-06 19:08:00,672 criticalfinder 0/8 INFO :: Solving Local EVP 25/50
+2023-03-06 19:08:19,149 criticalfinder 0/8 INFO :: Solving Local EVP 26/50
+2023-03-06 19:08:35,459 criticalfinder 0/8 INFO :: Solving Local EVP 27/50
+2023-03-06 19:08:52,832 criticalfinder 0/8 INFO :: Solving Local EVP 28/50
+2023-03-06 19:09:09,633 criticalfinder 0/8 INFO :: Solving Local EVP 29/50
+2023-03-06 19:09:27,011 criticalfinder 0/8 INFO :: Solving Local EVP 30/50
+2023-03-06 19:09:43,001 criticalfinder 0/8 INFO :: Solving Local EVP 31/50
+2023-03-06 19:10:01,711 criticalfinder 0/8 INFO :: Solving Local EVP 32/50
+2023-03-06 19:10:22,693 criticalfinder 0/8 INFO :: Solving Local EVP 33/50
+2023-03-06 19:10:40,256 criticalfinder 0/8 INFO :: Solving Local EVP 34/50
+2023-03-06 19:10:58,519 criticalfinder 0/8 INFO :: Solving Local EVP 35/50
+2023-03-06 19:11:16,314 criticalfinder 0/8 INFO :: Solving Local EVP 36/50
+2023-03-06 19:11:33,909 criticalfinder 0/8 INFO :: Solving Local EVP 37/50
+2023-03-06 19:11:51,018 criticalfinder 0/8 INFO :: Solving Local EVP 38/50
+2023-03-06 19:12:08,386 criticalfinder 0/8 INFO :: Solving Local EVP 39/50
+2023-03-06 19:12:25,993 criticalfinder 0/8 INFO :: Solving Local EVP 40/50
+2023-03-06 19:12:43,990 criticalfinder 0/8 INFO :: Solving Local EVP 41/50
+2023-03-06 19:13:02,317 criticalfinder 0/8 INFO :: Solving Local EVP 42/50
+2023-03-06 19:13:21,020 criticalfinder 0/8 INFO :: Solving Local EVP 43/50
+2023-03-06 19:13:38,477 criticalfinder 0/8 INFO :: Solving Local EVP 44/50
+2023-03-06 19:13:56,394 criticalfinder 0/8 INFO :: Solving Local EVP 45/50
+2023-03-06 19:14:13,136 criticalfinder 0/8 INFO :: Solving Local EVP 46/50
+2023-03-06 19:14:29,357 criticalfinder 0/8 INFO :: Solving Local EVP 47/50
+2023-03-06 19:14:46,086 criticalfinder 0/8 INFO :: Solving Local EVP 48/50
+2023-03-06 19:15:02,523 criticalfinder 0/8 INFO :: Solving Local EVP 49/50
+2023-03-06 19:15:21,931 criticalfinder 0/8 INFO :: Solving Local EVP 50/50
+crits =  (3.6147755173622023, 6123.3842545899315, -60.24615738108498)
+2023-03-06 19:15:46,191 __main__ 0/8 INFO :: m = 2, eta = 0.6000: Critical Ta = 6123.38, kz = 3.61478

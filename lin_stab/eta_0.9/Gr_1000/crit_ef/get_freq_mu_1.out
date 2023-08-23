@@ -1,0 +1,21 @@
+commenting out generation of eigfunctions and crit_ef directory from tc_r_heat_aw_eigenvalue_3d.py, since only interested in critical frequencies 
+2023-03-19 19:29:04,280 __main__ 0/1 INFO :: Computing Stability for Gr=1.000e+03, Pr=1.000e+00, eta=9.000e-01, mu = 1.000e+00, m=-22, nr = 96
+2023-03-19 19:29:04,282 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-03-19 19:29:04,351 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-03-19 19:29:41,839 __main__ 0/1 INFO :: Growth rate = 5.257033718564468e-03; frequency = 1.665199365421043e+03
+2023-03-19 19:29:42,677 __main__ 0/1 INFO :: Computing Stability for Gr=1.000e+03, Pr=1.000e+00, eta=9.000e-01, mu = 1.000e+00, m=-21, nr = 96
+2023-03-19 19:29:42,678 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-03-19 19:29:42,750 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-03-19 19:30:21,765 __main__ 0/1 INFO :: Growth rate = 1.531724700238237e-02; frequency = 1.536503916050574e+03
+2023-03-19 19:30:22,644 __main__ 0/1 INFO :: Computing Stability for Gr=1.000e+03, Pr=1.000e+00, eta=9.000e-01, mu = 1.000e+00, m=-20, nr = 96
+2023-03-19 19:30:22,645 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-03-19 19:30:22,720 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-03-19 19:31:00,583 __main__ 0/1 INFO :: Growth rate = 4.998670216177815e-03; frequency = 1.427016378015501e+03
+2023-03-19 19:31:01,496 __main__ 0/1 INFO :: Computing Stability for Gr=1.000e+03, Pr=1.000e+00, eta=9.000e-01, mu = 1.000e+00, m=-19, nr = 96
+2023-03-19 19:31:01,497 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-03-19 19:31:01,573 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-03-19 19:31:40,260 __main__ 0/1 INFO :: Growth rate = 1.800914875630109e-02; frequency = 1.376464232194759e+03
+2023-03-19 19:31:41,049 __main__ 0/1 INFO :: Computing Stability for Gr=1.000e+03, Pr=1.000e+00, eta=9.000e-01, mu = 1.000e+00, m=-18, nr = 96
+2023-03-19 19:31:41,050 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-03-19 19:31:41,124 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+2023-03-19 19:32:19,304 __main__ 0/1 INFO :: Growth rate = 7.824116416674545e-03; frequency = 1.354311988780391e+03

@@ -1,0 +1,133 @@
+"""
+read data and plot neutral stability curves for different m (azimuthal wavenumber),
+Gr (Grashof number) and mu (Omega2/Omega1)
+
+"""
+
+import numpy as np
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+from pylab import *
+import h5py
+##########################################
+font = {'family' : 'normal',
+        'weight' : 'bold',
+        'size'   : 30}
+#matplotlib.rc('font', **font)
+from matplotlib import rc
+rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})
+# for Palatino and other serif fonts use:
+#rc('font',**{'family':'serif','serif':['Palatino']})
+rc('text', usetex=True)
+mpl.rcParams.update({'font.size': 20})
+
+font = {'family' : 'monospace',
+        'weight' : 'bold',
+        'size'   : 20}
+
+from matplotlib import rc
+#rc('font',**{'family':'sans-serif','sans-serif':['Lucida Grande']})
+# for Palatino and other serif fonts use:
+#rc('font',**{'family':'serif','serif':['Palatino']})
+rc('text', usetex=True)
+mpl.rcParams.update({'font.size': 20})
+##########################################
+# mcolors list
+# mcolors.TABLEAU_COLORS.values()
+default_colors = np.array(['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf', \
+    'darkgreen', 'midnightblue', 'indigo', 'lightcoral', 'peru', 'olivedrab', 'turquoise', 'darkslategrey', 'skyblue', 'magenta', 'navy', \
+    'cornflowerblue', 'royalblue', 'steelblue', 'blueviolet', 'mediumorchid'])
+#############################
+
+Gr_range=np.array([1000])
+eta= 0.9
+Pr = 1
+
+# mu_range=np.array([-1.0, -0.5, -0.2, 0.0, 0.2])
+
+# for mu = -0.5
+# mu_range = np.array([-0.5])
+# m_range=np.array([-5, -4, -3, -2, -1, 0, 1], int)
+
+
+# mu_range = np.array([0.2])
+# m_range=np.array([-9, -8, -6, -3, -1, 0, 1, 2], int)
+# for mu = 0.5
+# mu_range = np.array([0.5])
+# m_range=np.array([-12, -11, -8, -5, -2, -1, 0, 1], int)
+
+# for mu = 1
+mu_range = np.array([1.0])
+m_range=np.array([-16, -18, -19, -20, -21, -22], int)
+
+nr=32
+mmax = max(abs(m_range))
+
+# nticks=5
+# h5file=True # are we using asc or h5 file  
+h5file=False # are we using asc or h5 file  
+
+for i in range(len(Gr_range)):
+    Gr = Gr_range[i]
+    for j in range(len(mu_range)):
+        mu = mu_range[j]
+        for k in range(len(m_range)):
+            m = m_range[k]
+            # color_factor = float(abs(m)/mmax)
+            
+            # r = color_factor**abs(m)
+            # g = color_factor**abs(m)
+            # b = color_factor**abs(m)
+            # a = 1 
+            root_name = "TC_aw_stability_Gr_{:.3e}_Pr_{:.3e}_eta_{:.3e}_mu_{:.3e}_m_{:d}_".format(Gr, Pr, eta, mu, m)
+            if(h5file == True):
+                neutral_stab_file = 'results/'+root_name+'neutral'+'.h5'
+                hf = h5py.File(neutral_stab_file, 'r')
+                # print("hf.keys() = \n", hf.keys())
+                Ta_n = hf.get("Ta_n")
+                kz_n = hf.get("kz_n")
+            else:
+                neutral_stab_file = 'neutral_asc/'+root_name+'neutral'+'.asc'
+                neutral_stab_data = np.loadtxt(neutral_stab_file)
+                Ta_n = neutral_stab_data[:, 1]
+                kz_n = neutral_stab_data[:, 0]
+
+            Ta_n = np.array(Ta_n)
+            kz_n = np.array(kz_n)
+
+            fig = plt.figure(i+j)
+            ax = fig.gca()
+
+            if(m > 0):
+                ax.plot(kz_n, Ta_n, linewidth=3, color = default_colors[abs(int(m))], \
+                    marker=(abs(int(m)), 0, 0), label=r'$m = $' + str(m))
+            elif(m < 0):
+                ax.plot(kz_n, Ta_n, linewidth=3, linestyle='--', color = default_colors[abs(int(m))], \
+                    marker=(abs(int(m)), 0, 0), label=r'$m = $' + str(m))
+            else:
+                ax.plot(kz_n, Ta_n, linewidth=3, color = default_colors[abs(int(m))], \
+                    marker='o', label=r'$m = $' + str(m))
+
+            # if(m > 0):
+            #     ax.plot(kz_n, Ta_n, linewidth=3, color = (r, g, b, a), \
+            #         marker=(abs(int(m)), 0, 0), label=r'$m = $' + str(m))
+            # elif(m < 0):
+            #     ax.plot(kz_n, Ta_n, linewidth=3, linestyle='--', color = (r, g, b, a), \
+            #         marker=(abs(int(m)), 0, 0), label=r'$m = $' + str(m))
+            # else:
+            #     ax.plot(kz_n, Ta_n, linewidth=3, linestyle='--', color = (r, g, b, a), \
+            #         marker='o', label=r'$m = $' + str(m))
+
+            # beautify axes
+            # ax.set_ylim(Ta_n.min(),Ta_n.max())
+            # ax.set_xlim(kz_n.min(),kz_n.max())
+            ax.ticklabel_format(axis='both', style='sci')
+
+        ax.legend(loc="best", prop={'size': 16})
+        ax.set_xlabel(r'$k_{z}$',fontsize=24)
+        ax.set_ylabel(r'$Ta$',fontsize=24)
+        # ax.locator_params(axis='y', nbins=nticks)
+        ax.set_xlim([0.01, 1])
+        ax.set_ylim([2e4, 1e5])
+        plt.tight_layout()
+        fig.savefig("figs/neutral_stab_Gr_" + str(Gr) + "_eta_" + str(eta) + "_mu_" + str(mu) + ".png")

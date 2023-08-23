@@ -1,0 +1,231 @@
+-------------
+eta = 0.6 Gr =  100
+vary mu for eta = 0.6 Gr =  100
+mu = -1.0 	 Ta_c =  14929.3
+mu = -0.5 	 Ta_c =  5374.9
+mu = -0.2 	 Ta_c =  2651.51
+mu = 0.0 	 Ta_c =  2581.52
+mu = 0.2 	 Ta_c =  4190.03
+-------------
+eta = 0.6 Gr =  500
+vary mu for eta = 0.6 Gr =  500
+mu = -1.0 	 Ta_c =  14634.19
+mu = -0.5 	 Ta_c =  5405.41
+mu = -0.2 	 Ta_c =  2550.0
+mu = 0.0 	 Ta_c =  2351.88
+mu = 0.2 	 Ta_c =  3371.83
+-------------
+eta = 0.6 Gr =  1000
+vary mu for eta = 0.6 Gr =  1000
+mu = -1.0 	 Ta_c =  14933.89
+mu = -0.5 	 Ta_c =  5135.82
+mu = -0.2 	 Ta_c =  2292.02
+mu = 0.0 	 Ta_c =  1750.89
+mu = 0.2 	 Ta_c =  1541.34
+mu = 0.5 	 Ta_c =  1706.85
+mu = 1.0 	 Ta_c =  6209.99
+-------------
+eta = 0.9 Gr =  100
+vary mu for eta = 0.9 Gr =  100
+mu = -1.0 	 Ta_c =  5296.46
+mu = -0.5 	 Ta_c =  2433.55
+mu = -0.2 	 Ta_c =  1883.14
+mu = 0.0 	 Ta_c =  1825.13
+mu = 0.2 	 Ta_c =  1975.93
+mu = 0.5 	 Ta_c =  3038.39
+-------------
+eta = 0.9 Gr =  500
+vary mu for eta = 0.9 Gr =  500
+mu = -1.0 	 Ta_c =  5220.56
+mu = -0.5 	 Ta_c =  2440.74
+mu = -0.2 	 Ta_c =  1869.51
+mu = 0.0 	 Ta_c =  1798.71
+mu = 0.2 	 Ta_c =  1921.66
+mu = 0.5 	 Ta_c =  2820.96
+-------------
+eta = 0.9 Gr =  1000
+vary mu for eta = 0.9 Gr =  1000
+mu = -1.0 	 Ta_c =  5138.4
+mu = -0.5 	 Ta_c =  2460.55
+mu = -0.2 	 Ta_c =  1832.02
+mu = 0.0 	 Ta_c =  1719.71
+mu = 0.2 	 Ta_c =  1765.43
+mu = 0.5 	 Ta_c =  2232.38
+mu = 1.0 	 Ta_c =  43411.0
+-------------
+eta = 0.6 mu =  -1.0
+vary Gr for eta = 0.6 mu =  -1.0
+Gr = 100.0 	 Ta_c =  14929.3
+Gr = 500.0 	 Ta_c =  14634.19
+Gr = 1000.0 	 Ta_c =  14933.89
+-------------
+eta = 0.6 mu =  -0.5
+vary Gr for eta = 0.6 mu =  -0.5
+Gr = 100.0 	 Ta_c =  5374.9
+Gr = 500.0 	 Ta_c =  5405.41
+Gr = 1000.0 	 Ta_c =  5135.82
+-------------
+eta = 0.6 mu =  -0.2
+vary Gr for eta = 0.6 mu =  -0.2
+Gr = 100.0 	 Ta_c =  2651.51
+Gr = 500.0 	 Ta_c =  2550.0
+Gr = 1000.0 	 Ta_c =  2292.02
+-------------
+eta = 0.6 mu =  0.0
+vary Gr for eta = 0.6 mu =  0.0
+Gr = 100.0 	 Ta_c =  2581.52
+Gr = 500.0 	 Ta_c =  2351.88
+Gr = 1000.0 	 Ta_c =  1750.89
+-------------
+eta = 0.6 mu =  0.2
+vary Gr for eta = 0.6 mu =  0.2
+Gr = 100.0 	 Ta_c =  4190.03
+Gr = 500.0 	 Ta_c =  3371.83
+Gr = 1000.0 	 Ta_c =  1541.34
+-------------
+eta = 0.6 mu =  0.5
+vary Gr for eta = 0.6 mu =  0.5
+Gr = 1000.0 	 Ta_c =  1706.85
+-------------
+eta = 0.6 mu =  1.0
+vary Gr for eta = 0.6 mu =  1.0
+Gr = 1000.0 	 Ta_c =  6209.99
+-------------
+eta = 0.9 mu =  -1.0
+vary Gr for eta = 0.9 mu =  -1.0
+Gr = 100.0 	 Ta_c =  5296.46
+Gr = 500.0 	 Ta_c =  5220.56
+Gr = 1000.0 	 Ta_c =  5138.4
+-------------
+eta = 0.9 mu =  -0.5
+vary Gr for eta = 0.9 mu =  -0.5
+Gr = 100.0 	 Ta_c =  2433.55
+Gr = 500.0 	 Ta_c =  2440.74
+Gr = 1000.0 	 Ta_c =  2460.55
+-------------
+eta = 0.9 mu =  -0.2
+vary Gr for eta = 0.9 mu =  -0.2
+Gr = 100.0 	 Ta_c =  1883.14
+Gr = 500.0 	 Ta_c =  1869.51
+Gr = 1000.0 	 Ta_c =  1832.02
+-------------
+eta = 0.9 mu =  0.0
+vary Gr for eta = 0.9 mu =  0.0
+Gr = 100.0 	 Ta_c =  1825.13
+Gr = 500.0 	 Ta_c =  1798.71
+Gr = 1000.0 	 Ta_c =  1719.71
+-------------
+eta = 0.9 mu =  0.2
+vary Gr for eta = 0.9 mu =  0.2
+Gr = 100.0 	 Ta_c =  1975.93
+Gr = 500.0 	 Ta_c =  1921.66
+Gr = 1000.0 	 Ta_c =  1765.43
+-------------
+eta = 0.9 mu =  0.5
+vary Gr for eta = 0.9 mu =  0.5
+Gr = 100.0 	 Ta_c =  3038.39
+Gr = 500.0 	 Ta_c =  2820.96
+Gr = 1000.0 	 Ta_c =  2232.38
+-------------
+eta = 0.9 mu =  1.0
+vary Gr for eta = 0.9 mu =  1.0
+Gr = 1000.0 	 Ta_c =  43411.0
+-------------
+mu = -1.0 Gr =  100
+vary eta for mu = -1.0 Gr =  100
+eta = 0.6 	 Ta_c =  14929.3
+eta = 0.9 	 Ta_c =  5296.46
+-------------
+mu = -1.0 Gr =  500
+vary eta for mu = -1.0 Gr =  500
+eta = 0.6 	 Ta_c =  14634.19
+eta = 0.9 	 Ta_c =  5220.56
+-------------
+mu = -1.0 Gr =  1000
+vary eta for mu = -1.0 Gr =  1000
+eta = 0.6 	 Ta_c =  14933.89
+eta = 0.9 	 Ta_c =  5138.4
+-------------
+mu = -0.5 Gr =  100
+vary eta for mu = -0.5 Gr =  100
+eta = 0.6 	 Ta_c =  5374.9
+eta = 0.9 	 Ta_c =  2433.55
+-------------
+mu = -0.5 Gr =  500
+vary eta for mu = -0.5 Gr =  500
+eta = 0.6 	 Ta_c =  5405.41
+eta = 0.9 	 Ta_c =  2440.74
+-------------
+mu = -0.5 Gr =  1000
+vary eta for mu = -0.5 Gr =  1000
+eta = 0.6 	 Ta_c =  5135.82
+eta = 0.9 	 Ta_c =  2460.55
+-------------
+mu = -0.2 Gr =  100
+vary eta for mu = -0.2 Gr =  100
+eta = 0.6 	 Ta_c =  2651.51
+eta = 0.9 	 Ta_c =  1883.14
+-------------
+mu = -0.2 Gr =  500
+vary eta for mu = -0.2 Gr =  500
+eta = 0.6 	 Ta_c =  2550.0
+eta = 0.9 	 Ta_c =  1869.51
+-------------
+mu = -0.2 Gr =  1000
+vary eta for mu = -0.2 Gr =  1000
+eta = 0.6 	 Ta_c =  2292.02
+eta = 0.9 	 Ta_c =  1832.02
+-------------
+mu = 0.0 Gr =  100
+vary eta for mu = 0.0 Gr =  100
+eta = 0.6 	 Ta_c =  2581.52
+eta = 0.9 	 Ta_c =  1825.13
+-------------
+mu = 0.0 Gr =  500
+vary eta for mu = 0.0 Gr =  500
+eta = 0.6 	 Ta_c =  2351.88
+eta = 0.9 	 Ta_c =  1798.71
+-------------
+mu = 0.0 Gr =  1000
+vary eta for mu = 0.0 Gr =  1000
+eta = 0.6 	 Ta_c =  1750.89
+eta = 0.9 	 Ta_c =  1719.71
+-------------
+mu = 0.2 Gr =  100
+vary eta for mu = 0.2 Gr =  100
+eta = 0.6 	 Ta_c =  4190.03
+eta = 0.9 	 Ta_c =  1975.93
+-------------
+mu = 0.2 Gr =  500
+vary eta for mu = 0.2 Gr =  500
+eta = 0.6 	 Ta_c =  3371.83
+eta = 0.9 	 Ta_c =  1921.66
+-------------
+mu = 0.2 Gr =  1000
+vary eta for mu = 0.2 Gr =  1000
+eta = 0.6 	 Ta_c =  1541.34
+eta = 0.9 	 Ta_c =  1765.43
+-------------
+mu = 0.5 Gr =  100
+vary eta for mu = 0.5 Gr =  100
+eta = 0.9 	 Ta_c =  3038.39
+-------------
+mu = 0.5 Gr =  500
+vary eta for mu = 0.5 Gr =  500
+eta = 0.9 	 Ta_c =  2820.96
+-------------
+mu = 0.5 Gr =  1000
+vary eta for mu = 0.5 Gr =  1000
+eta = 0.6 	 Ta_c =  1706.85
+eta = 0.9 	 Ta_c =  2232.38
+-------------
+mu = 1.0 Gr =  100
+vary eta for mu = 1.0 Gr =  100
+-------------
+mu = 1.0 Gr =  500
+vary eta for mu = 1.0 Gr =  500
+-------------
+mu = 1.0 Gr =  1000
+vary eta for mu = 1.0 Gr =  1000
+eta = 0.6 	 Ta_c =  6209.99
+eta = 0.9 	 Ta_c =  43411.0
